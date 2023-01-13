@@ -1,0 +1,83 @@
+.foots {
+    background-image: url(./common/assest/footerIMG.jpg);
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+}
+
+.f-logo {
+    padding: 2%;
+    text-align: center;
+}
+
+.f-detail {
+    background-color: rgb(171, 155, 178);
+    height: 2px;
+    width: 42%;
+    font-weight: 400;
+    text-align: center;
+    margin: auto;
+
+}
+
+.social-icon {
+    justify-content: center;
+}
+
+.footer-menu ul {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-menu ul li {
+    padding: 20px;
+    list-style: none;
+}
+
+.footer-menu ul li a {
+    text-decoration: none;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: larger;
+
+}
+
+.social-icon img {
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    height: 40px;
+    width: 40px;
+}
+
+.icon-img h3 {
+    text-align: center;
+    margin: auto;
+}
+
+.copy-right {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+}
+
+*,
+::after,
+::before {
+    box-sizing: unset;
+}
+
+.follow-Us {
+    text-align: center
+}
+
+.follow-Us span {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+
+}

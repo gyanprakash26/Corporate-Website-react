@@ -1,0 +1,70 @@
+.contact {
+    background-color: #8eb7f8;
+    padding-top: 50px;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 50px;
+}
+
+.form {
+    border-radius: 8px;
+}
+
+.socialHandling {
+    border-radius: 8px;
+    width: 100%;
+    padding-bottom: 0%;
+}
+
+span {
+    font-weight: 600;
+}
+
+.column {
+    padding: auto;
+    margin: auto;
+    width: 50%;
+}
+
+label {
+    margin: 8px;
+}
+
+input {
+    width: 210px;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+.submit-but input{
+    color: white;
+    background-color: #0a66fa;
+    padding: 8px 12px;
+    width: auto;
+}
+.submit-but{
+    margin-left: 7px;
+    margin-bottom: 20px;
+}
+
+button,
+select {
+    border: none;
+    padding: 5.9px;
+    border-radius: 5px;
+}
+textarea {
+    width: 100%;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+.f-content{
+    margin-left: 50px;
+}
+@media only screen and (max-width: 768px){
+    .column{
+        margin: 0%;
+        width: fit-content;
+    }
+}
